@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.betterts.Dao.UserDao">
+<!--抽取SQL-->
+    <sql id="deafult">
+        select * from USER
+    </sql>
+    
+    
+    <!--配置查询所有-->
+    <select id="findAll" resultType="cn.betterts.Domain.User">
+        select * from user
+    </select>
+
+
+
+    <select id="findById" resultType="cn.betterts.Domain.User">
+        select * from user where id=#{id}
+    </select>
+
+    <select id="findByName" resultType="cn.betterts.Domain.User">
+        select * from user where username like #{username}
+    </select>
+
+    <!--    根据QueryVo中的条件做查询-->
+    <select id="findByUserByVo" parameterType="cn.betterts.Domain.QueryVo" resultType="cn.betterts.Domain.User">
+        select * from user where username like #{user.username}
+    </select>
+
+   <select id="findByCondition" resultType="cn.betterts.Domain.User" parameterType="cn.betterts.Domain.User">
+<!--       select * from USER where 1=1-->
+<!--       <if test="username != null">-->
+<!--           and username = #{username}-->
+<!--       </if>-->
+       select * from USER
+       <where>
+           <if test="username != null">
+               and username = #{username}
+           </if>
+       </where>
+   </select>
+
+<!--    引入抽取的sql-->
+    <select id="findByIdInIds" resultType="cn.betterts.Domain.User" parameterType="cn.betterts.Domain.QueryVo">
+--         select * from user
+        <include refid="deafult"></include>
+        <where>
+            <if test="ids !=null and ids.size()>0">
+                <foreach collection="ids" open=" and id in (" close=")" item="id" separator=",">
+                    #{id}
+                </foreach>
+            </if>
+        </where>
+    </select>
+
+</mapper>

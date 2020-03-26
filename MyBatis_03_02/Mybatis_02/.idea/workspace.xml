@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9e053e3b-35c7-438b-9b50-7ceadf97580c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\AppData\Maven\maven_repository" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="13" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ZIBlTu8VmcBnivWYS9n54XoDDW" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../MyBatis_03_01/Mybatis_02" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\Mybatis_02\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.TestfindByIdInIds">
+    <configuration name="MyBatisTest.TestFindByQv" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Test.MyBatisTest" />
+      <option name="METHOD_NAME" value="TestFindByQv" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.TestfindByCondition" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Test.MyBatisTest" />
+      <option name="METHOD_NAME" value="TestfindByCondition" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.TestfindByIdInIds" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Test.MyBatisTest" />
+      <option name="METHOD_NAME" value="TestfindByIdInIds" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testFindall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testFindall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Mybatis_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Test" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Test.MyBatisTest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest.TestfindByIdInIds" />
+        <item itemvalue="JUnit.MyBatisTest.TestfindByCondition" />
+        <item itemvalue="JUnit.MyBatisTest.testFindall" />
+        <item itemvalue="JUnit.MyBatisTest.TestFindByQv" />
+        <item itemvalue="JUnit.MyBatisTest.testSave" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9e053e3b-35c7-438b-9b50-7ceadf97580c" name="Default Changelist" comment="" />
+      <created>1584516878497</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584516878497</updated>
+      <workItem from="1584516882960" duration="8175000" />
+      <workItem from="1584525080203" duration="4889000" />
+      <workItem from="1584551459306" duration="65000" />
+      <workItem from="1584552273233" duration="137000" />
+      <workItem from="1584552460893" duration="61000" />
+      <workItem from="1584587383622" duration="6604000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="842" y="260" key="#com.intellij.codeInsight.template.impl.EditVariableDialog" timestamp="1584588937915">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="842" y="260" key="#com.intellij.codeInsight.template.impl.EditVariableDialog/0.0.1536.864@0.0.1536.864" timestamp="1584588937915" />
+    <state x="447" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584520695151">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="447" y="97" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.864@0.0.1536.864" timestamp="1584520695151" />
+    <state x="284" y="212" key="#com.intellij.ide.util.MemberChooser" timestamp="1584592572616">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="284" y="212" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1584592572616" />
+    <state x="926" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1584520101784">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="926" y="305" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1536.864@0.0.1536.864" timestamp="1584520101784" />
+    <state x="947" y="193" key="FileChooserDialogImpl" timestamp="1584593551988">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="947" y="193" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584593551988" />
+    <state width="723" height="251" key="GridCell.Tab.0.bottom" timestamp="1584594161084">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584594161084" />
+    <state width="723" height="251" key="GridCell.Tab.0.center" timestamp="1584594161084">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="251" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584594161084" />
+    <state width="723" height="251" key="GridCell.Tab.0.left" timestamp="1584594161083">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="251" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584594161083" />
+    <state width="723" height="251" key="GridCell.Tab.0.right" timestamp="1584594161084">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="723" height="251" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584594161084" />
+    <state width="698" height="271" key="GridCell.Tab.1.bottom" timestamp="1584552521505">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="698" height="271" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584552521505" />
+    <state width="698" height="271" key="GridCell.Tab.1.center" timestamp="1584552521505">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="698" height="271" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1584552521505" />
+    <state width="698" height="271" key="GridCell.Tab.1.left" timestamp="1584552521504">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="698" height="271" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1584552521504" />
+    <state width="698" height="271" key="GridCell.Tab.1.right" timestamp="1584552521505">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="698" height="271" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1584552521505" />
+    <state x="559" y="102" key="Registry" timestamp="1584591805006">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="559" y="102" key="Registry/0.0.1536.864@0.0.1536.864" timestamp="1584591805006" />
+    <state x="327" y="110" key="SettingsEditor" timestamp="1584588940244">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="327" y="110" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584588940244" />
+    <state x="70" y="509" key="com.intellij.ide.util.TipDialog" timestamp="1584587383957">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="70" y="509" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1584587383957" />
+    <state x="-82" y="486" width="737" height="570" key="dock-window-1" timestamp="1584592814333">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="-82" y="486" width="737" height="570" key="dock-window-1/0.0.1536.864@0.0.1536.864" timestamp="1584592814333" />
+    <state x="356" y="85" key="new project wizard" timestamp="1584593596783">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="356" y="85" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1584593596783" />
+    <state x="909" y="65" key="refactoring.ChangeSignatureDialog" timestamp="1584525619359">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="909" y="65" key="refactoring.ChangeSignatureDialog/0.0.1536.864@0.0.1536.864" timestamp="1584525619359" />
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup" timestamp="1584591735531">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="814" y="185" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1584591735531" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/cn/betterts/Test/MyBatisTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

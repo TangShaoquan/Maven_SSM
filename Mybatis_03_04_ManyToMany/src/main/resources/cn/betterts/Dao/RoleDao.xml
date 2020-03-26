@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.betterts.Dao.RoleDao">
+<!--    定义role表的roleMp 由于Role类的属性与表列名不同，所以这是必须的-->
+    <resultMap id="roleMap" type="cn.betterts.Domain.Role">
+        <id column="id" property="roleId"></id>
+        <result column="role_name" property="roleName"></result>
+        <result column="role_Desc" property="roleDesc"></result>
+        <collection property="users" ofType="cn.betterts.Domain.User">
+            <id property="id" column="uid"></id>
+            <result property="username" column="username"></result>
+            <result property="sex" column="sex"></result>
+            <result property="birthday" column="birthday"></result>
+        </collection>
+    </resultMap>
+
+<!--&lt;!&ndash;    只查询role，不包含user&ndash;&gt;-->
+<!--    <select id="findAll" resultMap="roleMap">-->
+<!--        select * from role-->
+<!--    </select>-->
+
+    <select id="findAll" resultMap="roleMap">
+        SELECT u.*,r.id AS rid,r.role_name,r.role_desc FROM role r
+        LEFT OUTER JOIN user_role ur ON r.id=ur.rid
+        LEFT OUTER JOIN USER u ON u.id = ur.uid
+    </select>
+</mapper>

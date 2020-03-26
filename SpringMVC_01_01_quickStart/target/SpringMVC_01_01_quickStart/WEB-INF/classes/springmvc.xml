@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:mvc="http://www.springframework.org/schema/mvc"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/mvc
+        http://www.springframework.org/schema/mvc/spring-mvc.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    开启注释扫描-->
+
+    <context:component-scan base-package="cn.betterts"></context:component-scan>
+<!--视图解析器对象-->
+<!--    类名是固定的-->
+    <bean id="internalResourceViewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+<!--        配置资源路径-->
+        <property name="prefix" value="/WEB-INF/pages/"></property>
+<!--        配置资源类型-->
+<!--        扩展名，名字就是控制器返回来的-->
+<!--        就是配置了处理器适配器-->
+        <property name="suffix" value=".jsp"></property>
+    </bean>
+
+<!--    配置自定义类型转化器，配置之后还要注册-->
+    <bean id="conversionService" class="org.springframework.context.support.ConversionServiceFactoryBean">
+        <property name="converters">
+            <set>
+                <bean class="cn.betterts.utils.StringToDateConverter"></bean>
+            </set>
+        </property>
+    </bean>
+
+    <!--    开启SpringMvC注解支持-->
+<!--    使他支持类型转换器-->
+    <mvc:annotation-driven conversion-service="conversionService"/>
+
+
+</beans>

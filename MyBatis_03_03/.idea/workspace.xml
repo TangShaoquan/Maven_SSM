@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7612c37a-4d9e-4f1e-a78e-65de1f9f7ab5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\AppData\Maven\maven_repository" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.6.3-bin/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="1ZKhGkQofx4C9AuD3SPkXRbyRKw" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.betterts.Dao" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Java\MyBatis_03_03\src\main\java\cn\betterts\Domain" />
+      <recent name="E:\Java\MyBatis_03_03\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MyBatisTest.testFindall">
+    <configuration name="AccountTest.TestfindAllAccountUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_03_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Dao" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Dao.AccountTest" />
+      <option name="METHOD_NAME" value="TestfindAllAccountUser" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.testFindall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_03_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Dao" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Dao.AccountTest" />
+      <option name="METHOD_NAME" value="testFindall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.TestfindById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_03_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Dao" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Dao.MyBatisTest" />
+      <option name="METHOD_NAME" value="TestfindById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyBatisTest.testFindall" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="MyBatis_03_03" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.betterts.Dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.betterts.Dao" />
+      <option name="MAIN_CLASS_NAME" value="cn.betterts.Dao.MyBatisTest" />
+      <option name="METHOD_NAME" value="testFindall" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MyBatisTest.testFindall" />
+        <item itemvalue="JUnit.AccountTest.testFindall" />
+        <item itemvalue="JUnit.AccountTest.TestfindAllAccountUser" />
+        <item itemvalue="JUnit.MyBatisTest.TestfindById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7612c37a-4d9e-4f1e-a78e-65de1f9f7ab5" name="Default Changelist" comment="" />
+      <created>1584593599328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584593599328</updated>
+      <workItem from="1584593603224" duration="6426000" />
+      <workItem from="1584600486412" duration="294000" />
+      <workItem from="1584620341368" duration="1206000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="958" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1584597822586">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="958" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1584597822586" />
+    <state x="883" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584594246698">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="883" y="182" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.864@0.0.1536.864" timestamp="1584594246698" />
+    <state x="279" y="190" key="FileChooserDialogImpl" timestamp="1584593881553">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="279" y="190" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1584593881553" />
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.0.center" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.0.left" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.0.right" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.1.center" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.1.left" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state width="1493" height="277" key="GridCell.Tab.1.right" timestamp="1584600390790">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1493" height="277" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1584600390790" />
+    <state x="540" y="77" key="SettingsEditor" timestamp="1584600594985">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="540" y="77" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1584600594985" />
+  </component>
+</project>

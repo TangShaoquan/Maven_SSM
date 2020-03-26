@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cn.betterts.Dao.UserDao">
+
+
+    <!--    定义封装account和User的resultMap-->
+    <resultMap id="userAccountMap" type="cn.betterts.Domain.User">
+            <id property="id" column="id"></id>
+            <result property="username" column="username"></result>
+            <result property="birthday" column="birthday"></result>
+            <result property="sex" column="sex"></result>
+            <result property="address" column="address"></result>
+
+        <!--        一对多的关系映射，配置User对象中account的内容-->
+<!--        collection是配置集合，ofType是里面包含的类是什么类型的-->
+        <collection property="accounts" ofType="cn.betterts.Domain.Account">
+<!--                出现多个id，使用aid来重新指定列名-->
+                <id property="id" column="aid"></id>
+                <result property="uid" column="uid"></result>
+                <result property="money" column="money"></result>
+        </collection>
+    </resultMap>
+
+<!--    &lt;!&ndash;配置查询所有 不包含账户信息&ndash;&gt;-->
+<!--    <select id="findAll" resultType="cn.betterts.Domain.User">-->
+<!--        select * from user-->
+<!--    </select>-->
+
+
+<!--   配置查询所有 包含账户信息 -->
+    <select id="findAll" resultMap="userAccountMap">
+-- 左外链接
+        select * from user u left outer join account a on u.id=a.uid
+    </select>
+    <select id="findById" resultType="cn.betterts.Domain.User">
+        select * from user where id=#{id}
+    </select>
+</mapper>
